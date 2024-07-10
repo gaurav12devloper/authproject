@@ -2,7 +2,7 @@ import express from 'express';
 import passport from 'passport';
 const router = express.Router();
 
-const CLIENT_URL = "http://localhost:5173/";
+const CLIENT_URL = "https://authproject12.netlify.app/";
 
 
 router.get("/login/success", (req, res) => {

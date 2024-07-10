@@ -23,7 +23,7 @@ app.use(passport.session());
 
 app.use(cors(
     {
-        origin: "http://localhost:5173",
+        origin: "https://authproject12.netlify.app/",
         methods: "GET,PUT,PATCH,POST,DELETE",
         credentials: true
     }
