@@ -1,7 +1,7 @@
 export default function Login() {
   return (
     <div>
-      <a href="http://localhost:5000/auth/facebook" className="loginBtn">
+      <a href="https://authproject12.netlify.app/auth/facebook" className="loginBtn">
         Login with Facebook
       </a>
     </div>
